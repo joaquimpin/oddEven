@@ -1,8 +1,5 @@
 public class oddEven {
     public static void main (String[] args){
-        oddEven();
-    }
-    public static void oddEven (){
         int odd = 0;
         int even = 0;
         for (int i = 1; i <= 100; i++) {
@@ -13,7 +10,5 @@ public class oddEven {
                 even ++;
             }
         }
-        System.out.println("odd "+ odd + ","+ even +" even");
-
-    }
+        System.out.println("odd "+ odd + ","+ even +" even");    }
 }
